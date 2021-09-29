@@ -46,7 +46,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 content: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: const [
-                    Text("Сабуров Александр Владимирович"),
+                    Text(
+                      "Сабуров Александр Владимирович",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
                     Text("Группа ВБИо-302"),
                   ],
                 ),
@@ -55,11 +58,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      // floatingActionButton: FloatingActionButton(
-      //  onPressed: _incrementCounter,
-      //  tooltip: 'Increment',
-      //  child: const Icon(Icons.add),
-      // ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
